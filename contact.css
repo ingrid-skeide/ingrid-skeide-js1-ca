@@ -1,0 +1,42 @@
+form {
+    padding: 20px;
+    background-color: white;
+    max-width: 550px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    margin: 0px auto;
+}
+
+input {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    height: 20px;
+    width: 45%;
+}
+
+form :nth-child(4) input {
+    width: 95%;
+}
+
+form :nth-child(5) input{
+    height: 200px;
+    width: 95%;
+}
+
+.form-error {
+    color: red;
+    display: none;
+}
+
+button {
+    height: 40px;
+    border: none;
+    padding: 8px 50px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background-color: orange;
+}

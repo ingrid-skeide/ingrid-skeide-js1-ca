@@ -1,0 +1,41 @@
+h2 {
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.animes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.animeResult {
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    max-width: 250px;
+    max-height: 300px;
+    margin: 1rem;
+    text-decoration: none;
+    transition: 150ms linear;
+}
+
+.animeResult:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transform: translate(1px, 2px);
+}
+
+.image {
+    height: 150px;
+    background-size: cover;
+    background-position: center top;
+}
+
+.card-info p {
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+    font-size: 0.8em;
+}
